@@ -13,6 +13,11 @@ public class Client {
 		commandes = new ArrayList<>();
     }
 
+	@Override
+	public String toString() {
+		return "Client [id=" + id + ", commandes=" + commandes + "]";
+	}
+
 	public String getId() {
 		return id;
 	}

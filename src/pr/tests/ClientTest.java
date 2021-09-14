@@ -34,7 +34,7 @@ public class ClientTest {
 		laCommande.addProduit(new Produit("Pain", 2.0f), 2);
 		assertEquals(4, laCommande.getQuantiteProduits());
 		assertEquals(1, laCommande.getDetails().size());
-		System.out.println(laCommande);
+		//System.out.println(laCommande);
 	}
 	
 	@Test
